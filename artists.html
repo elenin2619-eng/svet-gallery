@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Юрий Ашиков — Галерея Светъ</title>
-  <meta name="description" content="Юрий Валерьевич Ашиков — живописец-портретист. Цикл «Романовы. Культурное наследие». Москва." />
+  <meta name="description" content="Юрий Ашиков (@artist_ashikov) — продюсер культурных проектов, куратор, художник. Цикл «Романовы. Культурное наследие». Москва." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -17,7 +17,7 @@
       <button class="nav-toggle" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav class="nav-links" aria-label="Основная навигация">
         <a href="index.html">Главная</a>
-        <a href="artists.html">Художники</a>
+        <a href="artists.html" class="active">Художники</a>
         <a href="projects.html">Проекты</a>
         <a href="events.html">События</a>
         <a href="about.html">О галерее</a>
@@ -38,8 +38,9 @@
             <p class="eyebrow">Информация о художнике</p>
             <h1 id="artist-info-title">Юрий Валерьевич Ашиков</h1>
             <p class="bio-year">род. 1994 · Москва</p>
-            <p class="bio">Современный российский живописец-портретист, дизайнер и фотограф. Работает в технике масла и угля; в фокусе — непарадный семейный портрет Дома Романовых по любительским архивным снимкам, дневникам и переписке.</p>
-            <p class="bio">Образование — Московский художественно-промышленный институт (арт-дизайн). Стажировки во Флоренции, Токио и Лондоне. В прессе и анонсах позиционируется как продолжатель линии портретного реализма школы Валентина Серова (самопозиционирование династии учеников, а не независимый канон).</p>
+            <p class="bio-title">Продюсер культурных проектов / куратор / художник</p>
+            <p class="bio">Рассказываю об искусстве. Преподаю. Пишу маслом и углём. В 2020 создал проект: «Романовы. Культурное Наследие». Пишу картины на заказ.</p>
+            <p class="bio">Современный российский живописец-портретист. В фокусе — непарадный семейный портрет Дома Романовых по любительским архивным снимкам, дневникам и переписке. Образование — Московский художественно-промышленный институт (арт-дизайн). Стажировки во Флоренции, Токио и Лондоне. Линия портретного реализма школы Валентина Серова (самопозиционирование). Первая персональная — ArtMaison; 12 персональных выставок и ярмарки. Постоянная экспозиция в Музее Николая II.</p>
             <dl class="artist-meta">
               <div>
                 <dt>Образование</dt>
@@ -50,20 +51,28 @@
                 <dd>Флоренция · Токио · Лондон</dd>
               </div>
               <div>
-                <dt>Линия</dt>
-                <dd>Портретный реализм (школа Серова)</dd>
+                <dt>Instagram</dt>
+                <dd><a class="link-gold" href="https://www.instagram.com/artist_ashikov/" target="_blank" rel="noopener">@artist_ashikov</a> · ~1217 подп.</dd>
+              </div>
+              <div>
+                <dt>Также</dt>
+                <dd><a class="link-gold" href="https://www.instagram.com/yura_ashi/" target="_blank" rel="noopener">@yura_ashi</a></dd>
+              </div>
+              <div>
+                <dt>Telegram</dt>
+                <dd><a class="link-gold" href="https://t.me/AshikovYuriy" target="_blank" rel="noopener">@AshikovYuriy</a> · <a class="link-gold" href="https://t.me/ashikovpaintings" target="_blank" rel="noopener">@ashikovpaintings</a></dd>
+              </div>
+              <div>
+                <dt>Threads</dt>
+                <dd><a class="link-gold" href="https://www.threads.net/@artist_ashikov" target="_blank" rel="noopener">@artist_ashikov</a></dd>
+              </div>
+              <div>
+                <dt>Проект</dt>
+                <dd><a class="link-gold" href="https://artcentre.moscow/project/romanovs-ashikov/" target="_blank" rel="noopener">artcentre.moscow</a></dd>
               </div>
               <div>
                 <dt>Базирование</dt>
                 <dd>Москва</dd>
-              </div>
-              <div>
-                <dt>Instagram</dt>
-                <dd><a class="link-gold" href="https://www.instagram.com/artist_ashikov/" target="_blank" rel="noopener">artist_ashikov</a></dd>
-              </div>
-              <div>
-                <dt>Telegram</dt>
-                <dd><a class="link-gold" href="https://t.me/ashikovpaintings" target="_blank" rel="noopener">@ashikovpaintings</a></dd>
               </div>
             </dl>
             <div class="hero-actions">
@@ -82,52 +91,144 @@
           <div>
             <p class="eyebrow">Фотографии / работы</p>
             <h2 id="artist-works-title" class="section-title">Галерея</h2>
-            <p class="lead" style="margin-top:0.75rem;">Избранные полотна и рисунки цикла «Романовы. Культурное наследие».</p>
+            <p class="lead" style="margin-top:0.75rem;">Живопись цикла «Романовы» и кадры из Instagram @artist_ashikov.</p>
           </div>
         </div>
-        <div class="works-grid works-grid-lg">
-          <article class="work-item" data-lightbox data-full="works/01-alexandra-court.jpg" data-title="Александра Фёдоровна. Придворный портрет — цикл «Романовы»">
-            <img src="works/01-alexandra-court.jpg" alt="Александра Фёдоровна. Придворный портрет" />
-            <div class="overlay">
-              <h4>Александра. Придворный портрет</h4>
-              <p>Романовы. Культурное наследие · масло</p>
-            </div>
-          </article>
-          <article class="work-item" data-lightbox data-full="works/02-nicholas-regalia.jpg" data-title="Николай II. Регалии — цикл «Романовы»">
-            <img src="works/02-nicholas-regalia.jpg" alt="Николай II. Регалии" />
-            <div class="overlay">
-              <h4>Николай II. Регалии</h4>
-              <p>Романовы. Культурное наследие · масло, 2023</p>
-            </div>
-          </article>
-          <article class="work-item" data-lightbox data-full="works/03-series-grid-a.jpg" data-title="Мария — точка отсчёта серии">
-            <img src="works/03-series-grid-a.jpg" alt="Мария" />
-            <div class="overlay">
-              <h4>Мария</h4>
-              <p>Точка отсчёта цикла · масло, 2022</p>
-            </div>
-          </article>
-          <article class="work-item" data-lightbox data-full="works/04-series-grid-b.jpg" data-title="Николай и ребёнок — семейный мотив">
-            <img src="works/04-series-grid-b.jpg" alt="Николай II с ребёнком" />
-            <div class="overlay">
-              <h4>Семья. Этюд</h4>
-              <p>Непарадный портрет · масло, 2022</p>
-            </div>
-          </article>
-          <article class="work-item" data-lightbox data-full="works/05-alexandra-child.jpg" data-title="Александра с ребёнком">
-            <img src="works/05-alexandra-child.jpg" alt="Александра Фёдоровна с ребёнком" />
-            <div class="overlay">
-              <h4>Александра с ребёнком</h4>
-              <p>Семейный мотив · масло, 2022</p>
-            </div>
-          </article>
-          <article class="work-item" data-lightbox data-full="works/06-mother-infant.jpg" data-title="Мать и младенец — уголь">
-            <img src="works/06-mother-infant.jpg" alt="Мать и младенец" />
-            <div class="overlay">
-              <h4>Мать и младенец</h4>
-              <p>Уголь · линия академического портрета</p>
-            </div>
-          </article>
+
+        <div class="gallery-subsection">
+          <h3 class="gallery-subhead">Живопись</h3>
+          <p class="gallery-sublead">Избранные полотна и рисунки цикла «Романовы. Культурное наследие».</p>
+          <div class="works-grid works-grid-lg">
+            <article class="work-item" data-lightbox data-full="works/01-alexandra-court.jpg" data-title="Александра Фёдоровна. Придворный портрет — цикл «Романовы»">
+              <img src="works/01-alexandra-court.jpg" alt="Александра Фёдоровна. Придворный портрет" />
+              <div class="overlay">
+                <h4>Александра. Придворный портрет</h4>
+                <p>Романовы. Культурное наследие · масло</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/02-nicholas-regalia.jpg" data-title="Николай II. Регалии — цикл «Романовы»">
+              <img src="works/02-nicholas-regalia.jpg" alt="Николай II. Регалии" />
+              <div class="overlay">
+                <h4>Николай II. Регалии</h4>
+                <p>Романовы. Культурное наследие · масло, 2023</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/03-series-grid-a.jpg" data-title="Мария — точка отсчёта серии">
+              <img src="works/03-series-grid-a.jpg" alt="Мария" />
+              <div class="overlay">
+                <h4>Мария</h4>
+                <p>Точка отсчёта цикла · масло, 2022</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/04-series-grid-b.jpg" data-title="Семья — семейный мотив">
+              <img src="works/04-series-grid-b.jpg" alt="Николай II с ребёнком" />
+              <div class="overlay">
+                <h4>Семья. Этюд</h4>
+                <p>Непарадный портрет · масло, 2022</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/05-alexandra-child.jpg" data-title="Александра с ребёнком">
+              <img src="works/05-alexandra-child.jpg" alt="Александра Фёдоровна с ребёнком" />
+              <div class="overlay">
+                <h4>Александра с ребёнком</h4>
+                <p>Семейный мотив · масло, 2022</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/06-mother-infant.jpg" data-title="Мать и младенец — уголь">
+              <img src="works/06-mother-infant.jpg" alt="Мать и младенец" />
+              <div class="overlay">
+                <h4>Мать и младенец</h4>
+                <p>Уголь · линия академического портрета</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="gallery-subsection">
+          <h3 class="gallery-subhead">Из Instagram</h3>
+          <p class="gallery-sublead">Работы и кадры с @artist_ashikov — именованные полотна, экспозиции и этюды.</p>
+          <div class="works-grid works-grid-lg">
+            <article class="work-item" data-lightbox data-full="works/ig/ig-01.jpg" data-title="Девочки с китайскими фонариками (копия Сарджента, заказ 2017)">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-01.jpg" alt="Девочки с китайскими фонариками" />
+              <div class="overlay">
+                <h4>Девочки с китайскими фонариками</h4>
+                <p>Копия Сарджента · заказ 2017 · масло</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/ig/ig-02.jpg" data-title="Ольга — экспозиция">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-02.jpg" alt="Ольга в экспозиции" />
+              <div class="overlay">
+                <h4>Ольга</h4>
+                <p>Экспозиция · цикл «Романовы»</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/ig/ig-03.jpg" data-title="Портрет углём в интерьере">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-03.jpg" alt="Портрет углём в интерьере" />
+              <div class="overlay">
+                <h4>Портрет углём</h4>
+                <p>В интерьере · уголь</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/ig/ig-04.jpg" data-title="Ольга, момент радости">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-04.jpg" alt="Ольга, момент радости" />
+              <div class="overlay">
+                <h4>Ольга, момент радости</h4>
+                <p>Романовы · масло</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/ig/ig-05.jpg" data-title="Maria is in the Field">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-05.jpg" alt="Maria is in the Field" />
+              <div class="overlay">
+                <h4>Maria is in the Field</h4>
+                <p>Мария · масло, 2023</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/ig/ig-06.jpg" data-title="На выставке — Юрий Ашиков">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-06.jpg" alt="Юрий Ашиков на выставке" />
+              <div class="overlay">
+                <h4>На выставке</h4>
+                <p>ArtMaison / персональная · 2023</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/ig/ig-07.jpg" data-title="Всадник — уголь">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-07.jpg" alt="Всадник, уголь" />
+              <div class="overlay">
+                <h4>Всадник</h4>
+                <p>Уголь · этюд к историческому циклу</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/ig/ig-08.jpg" data-title="Этюд всадника — PETR I / ROMANOVS">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-08.jpg" alt="Этюд всадника" />
+              <div class="overlay">
+                <h4>Этюд всадника</h4>
+                <p>Уголь · PETR I / ROMANOVS</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/ig/ig-09.jpg" data-title="Сестра милосердия, Ольга">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-09.jpg" alt="Сестра милосердия, Ольга" />
+              <div class="overlay">
+                <h4>Сестра милосердия, Ольга</h4>
+                <p>Экспозиция · Музей Романовых</p>
+              </div>
+            </article>
+            <article class="work-item" data-lightbox data-full="works/ig/ig-10.jpg" data-title="Сестра милосердия, Ольга — перформанс">
+              <span class="work-badge">Instagram</span>
+              <img src="works/ig/ig-10.jpg" alt="Сестра милосердия, Ольга — перформанс" />
+              <div class="overlay">
+                <h4>Сестра милосердия, Ольга</h4>
+                <p>Перформанс / экспозиция</p>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -137,8 +238,8 @@
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Проекты</p>
-          <h2 id="artist-projects-title" class="section-title">Именованные циклы</h2>
-          <p class="lead" style="margin-top:0.75rem;">Работы внутри главного проекта и выставочная лента.</p>
+          <h2 id="artist-projects-title" class="section-title">Циклы и выставки</h2>
+          <p class="lead" style="margin-top:0.75rem;">Главный цикл, именованные работы и выставочная лента по Instagram highlights.</p>
         </div>
 
         <div class="project-cards">
@@ -147,10 +248,10 @@
               <img src="works/01-alexandra-court.jpg" alt="Романовы. Культурное наследие" />
             </div>
             <div class="project-card-body">
-              <p class="eyebrow">Главный цикл</p>
+              <p class="eyebrow">Главный цикл · с 2020</p>
               <h3>Романовы. Культурное наследие</h3>
-              <p>Цикл портретов семьи Николая II — император, Александра Фёдоровна, Ольга, Татьяна, Мария, Анастасия, цесаревич Алексей. Старт ~2020–2021; техника — живопись и уголь. Метод: любительские семейные фото (Kodak), корреспонденция; отказ от парадной иконографии в пользу «живой» семейности.</p>
-              <a class="link-gold" href="projects.html">Подробнее на странице проектов →</a>
+              <p>Цикл портретов семьи Николая II — император, Александра Фёдоровна, Ольга, Татьяна, Мария, Анастасия, цесаревич Алексей. Техника — живопись и уголь. Метод: любительские семейные фото (Kodak), корреспонденция; отказ от парадной иконографии. Постоянная экспозиция в Музее Николая II; проект на artcentre.moscow.</p>
+              <a class="link-gold" href="https://artcentre.moscow/project/romanovs-ashikov/" target="_blank" rel="noopener">Страница на Центре искусств →</a>
             </div>
           </article>
 
@@ -161,7 +262,7 @@
               </div>
               <div class="project-card-body">
                 <h3>Мария</h3>
-                <p>Точка отсчёта серии — портрет по найденному снимку в шляпе периода ареста. Стиль легче и «призрачнее» остальных работ цикла.</p>
+                <p>Точка отсчёта серии — портрет по найденному снимку в шляпе периода ареста. Стиль легче и «призрачнее» остальных работ цикла. Также: Maria is in the Field (2023).</p>
               </div>
             </article>
             <article class="project-card">
@@ -170,7 +271,7 @@
               </div>
               <div class="project-card-body">
                 <h3>Семья</h3>
-                <p>2021–2023. По фотографии семьи на фоне яхты «Штандарт» — непарадный групповой образ.</p>
+                <p>2021–2023. По фотографии семьи на фоне яхты «Штандарт» — непарадный групповой образ. Highlight: ROMANOVS FAMILY.</p>
               </div>
             </article>
             <article class="project-card">
@@ -179,7 +280,7 @@
               </div>
               <div class="project-card-body">
                 <h3>Николай и Алекс. Ливадия</h3>
-                <p>Ок. 2020. Отец с сыном — на крыльце / у моря. Экспедиционный мотив Ливадии.</p>
+                <p>Ок. 2020. Отец с сыном — на крыльце / у моря. Экспедиционный мотив Ливадии. Рядом: «Николай на молитве», «Гордость».</p>
               </div>
             </article>
             <article class="project-card">
@@ -191,16 +292,55 @@
                 <p>2022. Непарадный диалог супругов — Александра и Николай вне официальной репрезентации.</p>
               </div>
             </article>
+            <article class="project-card">
+              <div class="project-card-media sm">
+                <img src="works/ig/ig-09.jpg" alt="Сестра милосердия, Ольга" />
+              </div>
+              <div class="project-card-body">
+                <h3>Сестра милосердия, Ольга</h3>
+                <p>Портрет и экспозиционный перформанс. Рядом в цикле: «Ольга, момент радости».</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card-media sm">
+                <img src="works/ig/ig-01.jpg" alt="Девочки с китайскими фонариками" />
+              </div>
+              <div class="project-card-body">
+                <h3>Девочки с китайскими фонариками</h3>
+                <p>Копия Сарджента (Carnation, Lily, Lily, Rose), заказ 2017 — масло.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card-media sm">
+                <img src="works/ig/ig-02.jpg" alt="Сад Сердца" />
+              </div>
+              <div class="project-card-body">
+                <h3>Опера-мистерия «Сад Сердца»</h3>
+                <p>Культурный проект в Центре искусств Москва — кураторская и продюсерская линия.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card-media sm">
+                <img src="works/ig/ig-08.jpg" alt="PETR I" />
+              </div>
+              <div class="project-card-body">
+                <h3>PETR I</h3>
+                <p>Исторический мотив и этюды всадника (уголь) — highlight PETR I в Instagram.</p>
+              </div>
+            </article>
           </div>
         </div>
 
         <div class="exhibition-strip" aria-label="Выставки">
-          <p class="eyebrow">Выставки</p>
+          <p class="eyebrow">Выставки и площадки</p>
           <ul class="exhibition-list">
-            <li><strong>ArtMaison</strong> <span>2023</span></li>
+            <li><strong>ArtMaison</strong> <span>2023 · первая персональная</span></li>
             <li><strong>Molbert</strong> <span>2023</span></li>
-            <li><strong>Музей Николая II</strong> <span>2024</span></li>
-            <li><strong>Центр Искусств. Москва</strong> <span>2026</span></li>
+            <li><strong>Музей Николая II</strong> <span>2024 · постоянная экспозиция</span></li>
+            <li><strong>Музей Романовых</strong> <span>экспозиция / отзывы СПб</span></li>
+            <li><strong>Cosmoscow</strong> <span>ярмарка · highlight Cosmoscow 26</span></li>
+            <li><strong>Центр Искусств. Москва</strong> <span>2026 · «Сад Сердца» / Романовы</span></li>
+            <li><strong>Nevsky.A</strong> <span>Санкт-Петербург</span></li>
           </ul>
         </div>
       </div>
@@ -228,7 +368,8 @@
         <div class="footer-col">
           <h4>Художник</h4>
           <a href="https://www.instagram.com/artist_ashikov/" target="_blank" rel="noopener">Instagram</a>
-          <a href="https://t.me/ashikovpaintings" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://t.me/AshikovYuriy" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://www.threads.net/@artist_ashikov" target="_blank" rel="noopener">Threads</a>
         </div>
       </div>
       <div class="footer-bottom">
