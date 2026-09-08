@@ -830,3 +830,161 @@ h1, h2, h3, .serif {
   .hero-actions { flex-direction: column; align-items: stretch; }
   .container { width: min(100% - 32px, var(--max)); }
 }
+
+/* —— Artist page: bio year, project cards, exhibition strip —— */
+.artist-bio-section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.artist-bio-section .artist-hero {
+  padding-bottom: 2rem;
+}
+.bio-year {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--accent-gold);
+  margin: -0.5rem 0 1.5rem;
+}
+.artist-meta a.link-gold {
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-size: 0.95rem;
+}
+
+.works-grid-lg {
+  gap: 1.5rem;
+}
+.works-grid-lg .work-item {
+  aspect-ratio: 3/4;
+}
+.works-grid-lg .work-item .overlay {
+  opacity: 1;
+  transform: none;
+  background: linear-gradient(transparent 30%, rgba(14,14,18,0.92));
+}
+.works-grid-lg .work-item:hover img {
+  filter: brightness(0.85);
+}
+
+.section-projects-block {
+  border-top: 1px solid rgba(176, 176, 184, 0.1);
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(176, 176, 184, 0.12);
+  overflow: hidden;
+  transition: border-color 0.35s;
+}
+.project-card:hover {
+  border-color: rgba(184, 150, 62, 0.4);
+}
+
+.project-card-featured {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 0;
+}
+.project-card-featured .project-card-media {
+  aspect-ratio: 4/5;
+  min-height: 100%;
+}
+.project-card-featured .project-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.project-card-media {
+  overflow: hidden;
+  background: #16161c;
+  aspect-ratio: 4/3;
+}
+.project-card-media.sm {
+  aspect-ratio: 16/10;
+}
+.project-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease);
+}
+.project-card:hover .project-card-media img {
+  transform: scale(1.04);
+}
+
+.project-card-body {
+  padding: 1.5rem 1.75rem 1.75rem;
+}
+.project-card-body h3 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0.75rem;
+}
+.project-card-body p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  margin-bottom: 1rem;
+}
+.project-card-body .link-gold {
+  margin-top: auto;
+}
+
+.project-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.exhibition-strip {
+  margin-top: 3.5rem;
+  padding: 2rem 0 0;
+  border-top: 1px solid rgba(176, 176, 184, 0.15);
+}
+.exhibition-strip .eyebrow {
+  margin-bottom: 1.25rem;
+}
+.exhibition-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;
+  align-items: baseline;
+}
+.exhibition-list li {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--text-light);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.exhibition-list li span {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.exhibition-list li strong {
+  font-weight: 500;
+  color: var(--accent-gold);
+}
+
+@media (max-width: 960px) {
+  .project-card-featured {
+    grid-template-columns: 1fr;
+  }
+  .project-card-featured .project-card-media {
+    aspect-ratio: 16/10;
+    min-height: auto;
+  }
+  .project-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
