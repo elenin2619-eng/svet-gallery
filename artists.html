@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Художники — Галерея Светъ</title>
+  <meta name="description" content="Юрий Ашиков — художник галереи Светъ. Серия «Романовы»." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo">Светъ<span>галерея</span></a>
+      <button class="nav-toggle" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav-links" aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="artists.html">Художники</a>
+        <a href="projects.html">Проекты</a>
+        <a href="events.html">События</a>
+        <a href="about.html">О галерее</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="artist-hero">
+        <figure class="artist-portrait">
+          <img src="works/02-nicholas-regalia.jpg" alt="Работа Юрия Ашикова — Николай II" />
+        </figure>
+        <div class="artist-info">
+          <p class="eyebrow">Художник галереи</p>
+          <h1>Юрий Ашиков</h1>
+          <p class="bio">Живописец, работающий на стыке исторического портрета и современной образности. Серия «Романовы» — многолетнее исследование фигуры Николая II, Александры Фёдоровны и семейного мифа через призму света, ткани и молчания.</p>
+          <p class="bio">В работах Ашикова императорский канон переосмысливается без пафоса: внимание к жесту, взгляду и пространству между фигурами. Галерея «Светъ» представляет цикл как диалог прошлого и настоящего.</p>
+          <dl class="artist-meta">
+            <div>
+              <dt>Направление</dt>
+              <dd>Живопись, портрет</dd>
+            </div>
+            <div>
+              <dt>Серия</dt>
+              <dd>«Романовы»</dd>
+            </div>
+            <div>
+              <dt>Техника</dt>
+              <dd>Масло, холст</dd>
+            </div>
+            <div>
+              <dt>Экспозиция</dt>
+              <dd>Галерея «Светъ», 2026</dd>
+            </div>
+          </dl>
+          <a class="btn btn-primary" href="contact.html">Запросить каталог</a>
+        </div>
+      </section>
+    </div>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-head row">
+          <div>
+            <p class="eyebrow">Галерея работ</p>
+            <h2 class="section-title">Серия «Романовы»</h2>
+          </div>
+        </div>
+        <div class="works-grid">
+          <article class="work-item" data-lightbox data-full="works/01-alexandra-court.jpg" data-title="Александра. Придворный портрет">
+            <img src="works/01-alexandra-court.jpg" alt="Александра. Придворный портрет" />
+            <div class="overlay"><h4>Александра. Придворный портрет</h4><p>Масло, холст</p></div>
+          </article>
+          <article class="work-item" data-lightbox data-full="works/02-nicholas-regalia.jpg" data-title="Николай II. Регалии">
+            <img src="works/02-nicholas-regalia.jpg" alt="Николай II. Регалии" />
+            <div class="overlay"><h4>Николай II. Регалии</h4><p>Масло, холст</p></div>
+          </article>
+          <article class="work-item" data-lightbox data-full="works/03-series-grid-a.jpg" data-title="Этюды серии I">
+            <img src="works/03-series-grid-a.jpg" alt="Этюды серии I" />
+            <div class="overlay"><h4>Этюды серии I</h4><p>Масло, холст</p></div>
+          </article>
+          <article class="work-item" data-lightbox data-full="works/04-series-grid-b.jpg" data-title="Этюды серии II">
+            <img src="works/04-series-grid-b.jpg" alt="Этюды серии II" />
+            <div class="overlay"><h4>Этюды серии II</h4><p>Масло, холст</p></div>
+          </article>
+          <article class="work-item" data-lightbox data-full="works/05-alexandra-child.jpg" data-title="Александра с ребёнком">
+            <img src="works/05-alexandra-child.jpg" alt="Александра с ребёнком" />
+            <div class="overlay"><h4>Александра с ребёнком</h4><p>Масло, холст</p></div>
+          </article>
+          <article class="work-item" data-lightbox data-full="works/06-mother-infant.jpg" data-title="Мать и младенец">
+            <img src="works/06-mother-infant.jpg" alt="Мать и младенец" />
+            <div class="overlay"><h4>Мать и младенец</h4><p>Масло, холст</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">Светъ<span>галерея</span></div>
+          <p>Пространство современного искусства. Выставки, частные просмотры и культурные проекты.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Навигация</h4>
+          <a href="artists.html">Художники</a>
+          <a href="projects.html">Проекты</a>
+          <a href="events.html">События</a>
+        </div>
+        <div class="footer-col">
+          <h4>Галерея</h4>
+          <a href="about.html">О нас</a>
+          <a href="contact.html">Контакты</a>
+        </div>
+        <div class="footer-col">
+          <h4>Связь</h4>
+          <a href="mailto:hello@svet.gallery">hello@svet.gallery</a>
+          <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Галерея «Светъ»</span>
+        <span>Москва</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Закрыть">×</button>
+    <img src="" alt="" />
+    <p class="lightbox-cap"></p>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
